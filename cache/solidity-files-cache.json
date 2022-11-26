@@ -19,7 +19,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -37,8 +38,8 @@
       ]
     },
     "/Users/oyinlolu/Documents/Solidity/testing-contracts/contracts/box.sol": {
-      "lastModificationDate": 1669436179334,
-      "contentHash": "a71c74777854e1f5170f379e63103024",
+      "lastModificationDate": 1669501487431,
+      "contentHash": "1df8e6dd419753da7f93c3582d753824",
       "sourceName": "contracts/box.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -54,7 +55,8 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "storageLayout"
               ],
               "": [
                 "ast"
@@ -71,6 +73,42 @@
       ],
       "artifacts": [
         "Box"
+      ]
+    },
+    "/Users/oyinlolu/Documents/Solidity/testing-contracts/contracts/box_v2.sol": {
+      "lastModificationDate": 1669501886431,
+      "contentHash": "65df186c7e219b13c31827f46eef9de3",
+      "sourceName": "contracts/box_v2.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BoxV2"
       ]
     }
   }

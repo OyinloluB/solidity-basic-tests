@@ -1,0 +1,308 @@
+{
+  "version": "3.4",
+  "log": [
+    {
+      "contracts/box_v2.sol:BoxV2": {
+        "src": "contracts/box_v2.sol:5",
+        "version": {
+          "withMetadata": "c1c8a79842f68881b19d3e417e7daa5c04f1a5c0fcfc04451861c7d89e7ba0f6",
+          "withoutMetadata": "01c3ba37320016517cdb11c3854419e58447d3987ca7ee58cc7d8498e0984ab2",
+          "linkedWithoutMetadata": "01c3ba37320016517cdb11c3854419e58447d3987ca7ee58cc7d8498e0984ab2"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "store(uint256)",
+          "retrieve()",
+          "increment()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "_value",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "BoxV2",
+              "src": "contracts/box_v2.sol:6"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.4"
+      }
+    },
+    {
+      "contracts/box_v2.sol:BoxV2": {
+        "src": "contracts/box_v2.sol:5",
+        "version": {
+          "withMetadata": "8d291a1d7be6d52c29b4db1a5cbab12ca40eb60b5b679b907930b00ad47f1111",
+          "withoutMetadata": "29b195839f52eb969247f1bd30462d681db8dca7ac151584e139752aef5d5e6f",
+          "linkedWithoutMetadata": "29b195839f52eb969247f1bd30462d681db8dca7ac151584e139752aef5d5e6f"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "store(uint256)",
+          "retrieve()",
+          "increment()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "_value",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "BoxV2",
+              "src": "contracts/box_v2.sol:6"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.4"
+      }
+    },
+    {
+      "contracts/box_v2.sol:BoxV2": {
+        "src": "contracts/box_v2.sol:5",
+        "version": {
+          "withMetadata": "c1c8a79842f68881b19d3e417e7daa5c04f1a5c0fcfc04451861c7d89e7ba0f6",
+          "withoutMetadata": "01c3ba37320016517cdb11c3854419e58447d3987ca7ee58cc7d8498e0984ab2",
+          "linkedWithoutMetadata": "01c3ba37320016517cdb11c3854419e58447d3987ca7ee58cc7d8498e0984ab2"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "store(uint256)",
+          "retrieve()",
+          "increment()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "_value",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "BoxV2",
+              "src": "contracts/box_v2.sol:6"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.4"
+      }
+    },
+    {
+      "contracts/access-control/auth.sol:Auth": {
+        "src": "contracts/access-control/auth.sol:5",
+        "version": {
+          "withMetadata": "8f9c4443a9efdb0402f947761010b0210c65efdce700a795586d743755dbfc42",
+          "withoutMetadata": "7bedf9ef352669451eb92edb03094aa26af16327f7aab3e7eac7e6362ee9e942",
+          "linkedWithoutMetadata": "7bedf9ef352669451eb92edb03094aa26af16327f7aab3e7eac7e6362ee9e942"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(address)",
+          "isAdministrator(address)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Auth",
+            "src": "contracts/access-control/auth.sol:8"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "_administrator",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "Auth",
+              "src": "contracts/access-control/auth.sol:6"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.4"
+      },
+      "contracts/box.sol:Box": {
+        "src": "contracts/box.sol:7",
+        "version": {
+          "withMetadata": "f48f7ceb70ff9dcfcf27d2872baec1019a24d79a206b3d8043af784e8e9bc530",
+          "withoutMetadata": "925ac28bbf9839bef9f86ec5b41ec3785d913ce448340c01b8751ecba4a82e6f",
+          "linkedWithoutMetadata": "925ac28bbf9839bef9f86ec5b41ec3785d913ce448340c01b8751ecba4a82e6f"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "store(uint256)",
+          "retrieve()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "_value",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "Box",
+              "src": "contracts/box.sol:8"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.4"
+      }
+    },
+    {
+      "contracts/access-control/auth.sol:Auth": {
+        "src": "contracts/access-control/auth.sol:5",
+        "version": {
+          "withMetadata": "8f9c4443a9efdb0402f947761010b0210c65efdce700a795586d743755dbfc42",
+          "withoutMetadata": "7bedf9ef352669451eb92edb03094aa26af16327f7aab3e7eac7e6362ee9e942",
+          "linkedWithoutMetadata": "7bedf9ef352669451eb92edb03094aa26af16327f7aab3e7eac7e6362ee9e942"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(address)",
+          "isAdministrator(address)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Auth",
+            "src": "contracts/access-control/auth.sol:8"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "_administrator",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "Auth",
+              "src": "contracts/access-control/auth.sol:6"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.4"
+      },
+      "contracts/box.sol:Box": {
+        "src": "contracts/box.sol:7",
+        "version": {
+          "withMetadata": "e3ea4c617b7c3b1d65c01d639d835fe499e8bc601e8b87aa57676319fa1a269d",
+          "withoutMetadata": "49c67267fa354c81cda16a2612bb331d297bb11006b31f189d9d5229e481153d",
+          "linkedWithoutMetadata": "49c67267fa354c81cda16a2612bb331d297bb11006b31f189d9d5229e481153d"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "()",
+          "store(uint256)",
+          "retrieve()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Box",
+            "src": "contracts/box.sol:14"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "_value",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "Box",
+              "src": "contracts/box.sol:8"
+            },
+            {
+              "label": "_auth",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_contract(Auth)26",
+              "contract": "Box",
+              "src": "contracts/box.sol:9"
+            }
+          ],
+          "types": {
+            "t_contract(Auth)26": {
+              "label": "contract Auth",
+              "numberOfBytes": "20"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.4"
+      }
+    }
+  ]
+}
